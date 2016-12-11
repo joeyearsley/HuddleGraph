@@ -1,0 +1,18 @@
+I created tests to ensure my system is upto spec.
+
+Running instructions:
+
+Pre-requisites: JDK (if you want to compile my code)
+
+Firstly:
+Open command line or terminal, and navigate to the folder downloaded.
+(using cd and then the file path)
+
+To Compile:
+
+javac -cp junit-4.12.jar *.java
+
+To Run:
+
+java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore Tests
+
